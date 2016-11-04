@@ -7,7 +7,7 @@
     <keywords>cordova,plister</keywords>
     <!-- ios -->
     <platform name="ios">
-        <config-file target="*-Info.plist" >
+        <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
             <key>ITSAppUsesNonExemptEncryption</key>
             <false/>
         </config-file>
