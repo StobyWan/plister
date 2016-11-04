@@ -7,12 +7,9 @@
     <keywords>cordova,plister</keywords>
     <!-- ios -->
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
-            <dict>
-                <key>ITSAppUsesNonExemptEncryption</key>
-                <false/>
-            </dict>
-            
+        <config-file target="*-Info.plist" >
+            <key>ITSAppUsesNonExemptEncryption</key>
+            <false/>
         </config-file>
     </platform>
 </plugin>
