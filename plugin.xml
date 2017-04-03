@@ -6,6 +6,18 @@
     <keywords>cordova,plister</keywords>
     <!-- ios -->
     <platform name="ios">
+        <!--Add your own plist entries like so-->
+        
+        <!--<config-file target="*-Info.plist" parent="CFBundleURLTypes">-->
+        <!--<array>-->
+        <!--<dict>-->
+        <!--<key>PackageName</key>-->
+        <!--<string>$PACKAGE_NAME</string>-->
+        <!--</dict>-->
+        <!--</array>-->
+        <!--</config-file>-->
+        
+        <!--Here is the one I needed-->
         <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
             <key>ITSAppUsesNonExemptEncryption</key>
             <false/>
