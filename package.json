@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-plister",
-    "version": "1.0.1",
+    "version": "1.0",
     "description": "Some description of what your plugin does",
     "main": "index.js",
     "scripts": {
