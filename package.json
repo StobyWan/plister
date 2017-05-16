@@ -1,0 +1,20 @@
+{
+    "name": "cordova-plugin-plister",
+    "version": "1.0.1",
+    "description": "Some description of what your plugin does",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StobyWan/plister.git"
+    },
+    "keywords": [],
+    "author": "Bryan Stober",
+    "license": "MIT",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "https://github.com/StobyWan/plister/#readme"
+}
